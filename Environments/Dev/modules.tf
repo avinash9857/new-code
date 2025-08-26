@@ -1,8 +1,13 @@
 module "resource_group" {
   source     = "../../Modules/resource_group"
   rgname     = "avirg2"
-  rglocation = "centralindia"
-  
+  rglocation = "centralindia"  
+}
+
+module "resource_group" {
+  source     = "../../Modules/resource_group"
+  rgname     = "avirg3"
+  rglocation = "westus"  
 }
 
 # module "Storage_call" {
